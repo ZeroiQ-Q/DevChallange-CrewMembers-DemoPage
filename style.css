@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  height: 100vh;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  position: absolute;
+  left: 243px;
+  top: 110px;
+  font: normal 700 36px pt serif;
+  width: 278px;
+  letter-spacing: -1.5px;
+}
+.tag {
+  position: absolute;
+  width: 117px;
+  left: 736px;
+  top: 110px;
+  font: normal 600 18px poppins;
+}
+.description {
+  position: absolute;
+  width: 439px;
+  height: 87px;
+  left: 736px;
+  top: 147px;
+  font: normal 400 18px poppins;
+  line-height: 27px;
+}
+
+.dev-info {
+  position: absolute;
+  top: 1448px;
+  left: 577px;
+  width: 400px;
+  height: 17px;
+  font-family: montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #bdbdbd;
+  margin: 0;
+  padding-bottom: 24px;
+}
+
+.members {
+  position: absolute;
+  height: 341px;
+  width: 238px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.names {
+  font: normal 600 18px poppins;
+  line-height: 27px;
+  position: absolute;
+  left: -1px;
+  bottom: -37px;
+}
+.designation {
+  font: normal 400 12px pt serif;
+  position: absolute;
+  text-transform: uppercase;
+  right: -68px;
+  top: 44.5px;
+  height: 16px;
+  width: 105px;
+  transform: rotate(90deg);
+}
+.one {
+  top: 330px;
+  left: 240px;
+}
+
+.two {
+  top: 429px;
+  left: 571px;
+}
+
+.three {
+  top: 330px;
+  left: 901px;
+}
+
+.four {
+  top: 845px;
+  left: 240px;
+}
+
+.five {
+  top: 944px;
+  left: 571px;
+}
+
+.six {
+  left: 902px;
+  top: 845px;
+}
+
+@media (max-width: 450px) {
+  .heading {
+    top: 71px;
+    left: 12px;
+  }
+  .tag {
+    top: 156px;
+    left: 12px;
+  }
+  .description {
+    top: 193px;
+    left: 12px;
+    font-size: 14px;
+    width: 333px;
+  }
+
+  .members {
+    width: 138.72px;
+    height: 212.6px;
+  }
+  img {
+    object-fit: cover;
+  }
+
+  .name {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .designation {
+    font-size: 10px;
+    line-height: 13.25px;
+    right: -62px;
+  }
+
+  .one {
+    top: 318px;
+    left: 20px;
+  }
+
+  .two {
+    top: 366px;
+    left: 200px;
+  }
+
+  .three {
+    top: 619px;
+    left: 20px;
+  }
+  .four {
+    top: 667px;
+    left: 200px;
+  }
+  .five {
+    top: 930px;
+    left: 20px;
+  }
+  .six {
+    top: 979px;
+    left: 200px;
+  }
+
+  .dev-info {
+    left: 8%;
+  }
+}
+
+.dev-info {
+  top: 1368px;
+}
